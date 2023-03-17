@@ -1,0 +1,24 @@
+Come fare i modelli:
+
+Tempo ciclo: POCO differente. Lavora più sulle varianze
+	- Tc A: 230 sec, var 15
+	- Tc B: 240 sec, var 13
+	- Tc C: 250 sec, var 10
+
+Rotture: abbastanza frequenti, per evidenziare i flag a 1. Circa 1 al giorno
+	- MTTF A: 72000 sec = 20 h
+	- MTTF B: 86400 sec = 24 h
+	- MTTF C: 100800 sec = 28 h
+
+Riparazioni: abbastanza lente, per evidenziare i flag a 1. da 2/3 a 1/2 di giornata.
+	- MTTR A: 14400 sec = 4 h
+	- MTTR B: 12000 sec = 3,33 h
+	- MTTR C: 9600 sec = 2,66 h
+
+Durata test: 
+	- 60 gg
+	- 90 gg
+	- 120 gg
+
+Controllo flag a 1: 
+ 	- da merged_file.csv >>> Apri con Excel, filtra e seleziona le colonne interessate. 
